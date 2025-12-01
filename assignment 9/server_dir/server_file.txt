@@ -1,0 +1,1 @@
+This is a test file from SERVER. It contains some sample data for testing file transfer.

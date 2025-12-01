@@ -1,0 +1,48 @@
+[2025-11-30 09:51:32] 
+=== Chat Server Started ===
+[2025-11-30 09:52:19] >>> aaditya has joined the chat!
+
+[2025-11-30 09:52:26] >>> abhishek has joined the chat!
+
+[2025-11-30 09:52:40] >>> suresh has joined the chat!
+
+[2025-11-30 09:54:48] [2025-11-30 09:54:48] suresh: hi from suresh
+
+[2025-11-30 10:01:26] 
+=== Chat Server Started ===
+[2025-11-30 10:01:33] >>> aaditya has joined the chat!
+
+[2025-11-30 10:01:39] >>> suresh has joined the chat!
+
+[2025-11-30 10:02:11] >>> alex has joined the chat!
+
+[2025-11-30 10:02:20] [2025-11-30 10:02:20] alex: hello from alex
+
+[2025-11-30 10:52:26] 
+=== Chat Server Started ===
+[2025-11-30 10:54:12] 
+=== Chat Server Started ===
+[2025-11-30 10:55:40] 
+=== Chat Server Started ===
+[2025-11-30 10:55:53] >>> aaditya has joined the chat!
+
+[2025-11-30 10:56:02] >>> suresh has joined the chat!
+
+[2025-11-30 10:56:10] >>> alex has joined the chat!
+
+[2025-11-30 10:56:15] [2025-11-30 10:56:15] alex: hi from alex
+
+[2025-11-30 10:57:55] <<< alex has left the chat.
+
+[2025-11-30 10:57:55] <<< aaditya has left the chat.
+
+[2025-12-01 19:16:51] 
+=== Chat Server Started ===
+[2025-12-01 19:17:04] >>> aaditya has joined the chat!
+
+[2025-12-01 19:17:09] >>> suresh has joined the chat!
+
+[2025-12-01 19:17:13] >>> alex has joined the chat!
+
+[2025-12-01 19:17:19] [2025-12-01 19:17:19] alex: hello from alex
+

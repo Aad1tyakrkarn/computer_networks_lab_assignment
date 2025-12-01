@@ -1,0 +1,19 @@
+# Ignore packet capture files
+*.pcap
+*.pcapng
+
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+raw_sniffer
+udp_server
+udp_client
+chat_server
+chat_client
+syn_flood
+raw_tcp_roll
+raw_icmp_time
+
+# Ignore backups
+*~

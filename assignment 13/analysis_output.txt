@@ -1,0 +1,581 @@
+╔════════════════════════════════════════════════════════════╗
+║        Binary Tree Topology Packet Analysis               ║
+║                  Assignment 13                             ║
+╚════════════════════════════════════════════════════════════╝
+
+Analyzing packets from: root_switch.pcap
+
+═══════════════════════════════════════════════════════════
+Packet #1 - Time: 0.000000 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ae:dd:4c:5b:bf:0a
+  Destination MAC: 33:33:00:00:00:02
+  EtherType:       0x86dd (Other)
+
+═══════════════════════════════════════════════════════════
+Packet #2 - Time: 0.002427 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      42:7a:28:2d:4f:3d
+  Destination MAC: 33:33:00:00:00:02
+  EtherType:       0x86dd (Other)
+
+═══════════════════════════════════════════════════════════
+Packet #3 - Time: 0.002588 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:93:34:59:bf:bf
+  Destination MAC: 33:33:00:00:00:02
+  EtherType:       0x86dd (Other)
+
+═══════════════════════════════════════════════════════════
+Packet #4 - Time: 50.909370 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x8aa7
+
+═══════════════════════════════════════════════════════════
+Packet #5 - Time: 50.910322 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x92a7
+
+═══════════════════════════════════════════════════════════
+Packet #6 - Time: 51.910501 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x829d
+
+═══════════════════════════════════════════════════════════
+Packet #7 - Time: 51.910557 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x8a9d
+
+═══════════════════════════════════════════════════════════
+Packet #8 - Time: 52.927924 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x6c58
+
+═══════════════════════════════════════════════════════════
+Packet #9 - Time: 52.927970 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x7458
+
+═══════════════════════════════════════════════════════════
+Packet #10 - Time: 53.929728 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x6e50
+
+═══════════════════════════════════════════════════════════
+Packet #11 - Time: 53.929800 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x7650
+
+═══════════════════════════════════════════════════════════
+Packet #12 - Time: 54.976302 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x7599
+
+═══════════════════════════════════════════════════════════
+Packet #13 - Time: 54.976346 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x7d99
+
+═══════════════════════════════════════════════════════════
+Packet #14 - Time: 55.999694 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x0e3d
+
+═══════════════════════════════════════════════════════════
+Packet #15 - Time: 55.999746 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x163d
+
+═══════════════════════════════════════════════════════════
+Packet #16 - Time: 56.321436 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0806 (ARP)
+
+═══════════════════════════════════════════════════════════
+Packet #17 - Time: 56.321568 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0806 (ARP)
+
+═══════════════════════════════════════════════════════════
+Packet #18 - Time: 56.321864 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0806 (ARP)
+
+═══════════════════════════════════════════════════════════
+Packet #19 - Time: 56.321908 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0806 (ARP)
+
+═══════════════════════════════════════════════════════════
+Packet #20 - Time: 57.024155 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x7ddc
+
+═══════════════════════════════════════════════════════════
+Packet #21 - Time: 57.024225 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x85dc
+
+═══════════════════════════════════════════════════════════
+Packet #22 - Time: 58.048301 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x347d
+
+═══════════════════════════════════════════════════════════
+Packet #23 - Time: 58.048376 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x3c7d
+
+═══════════════════════════════════════════════════════════
+Packet #24 - Time: 59.072118 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x201f
+
+═══════════════════════════════════════════════════════════
+Packet #25 - Time: 59.072164 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x281f
+
+═══════════════════════════════════════════════════════════
+Packet #26 - Time: 60.095877 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      26:b7:37:6b:29:9b
+  Destination MAC: ca:ec:05:3b:c4:3c
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.1
+  Destination IP:  10.0.0.8
+
+[ICMP Header]
+  Type:            8 (Echo Request)
+  Code:            0
+  Checksum:        0x4ec1
+
+═══════════════════════════════════════════════════════════
+Packet #27 - Time: 60.095919 seconds
+═══════════════════════════════════════════════════════════
+
+[Layer 2 - Ethernet Header]
+  Source MAC:      ca:ec:05:3b:c4:3c
+  Destination MAC: 26:b7:37:6b:29:9b
+  EtherType:       0x0800 (IPv4)
+
+[Layer 3 - IP Header]
+  Version:         4
+  Header Length:   20 bytes
+  Total Length:    84 bytes
+  TTL:             64
+  Protocol:        1 (ICMP)
+  Source IP:       10.0.0.8
+  Destination IP:  10.0.0.1
+
+[ICMP Header]
+  Type:            0 (Echo Reply)
+  Code:            0
+  Checksum:        0x56c1
+
+╔════════════════════════════════════════════════════════════╗
+║                    TIME SEQUENCE DIAGRAM                   ║
+╠════════════════════════════════════════════════════════════╣
+║                                                            ║
+║   Host h1                                          Host h8 ║
+║      |                                                |    ║
+║      |  ARP Request (Who has 10.0.0.8?)  -------->   |    ║
+║      |                                                |    ║
+║      |  <--------  ARP Reply (I am 10.0.0.8)         |    ║
+║      |                                                |    ║
+║      |  ICMP Echo Request (ping) ------------>       |    ║
+║      |                                                |    ║
+║      |  <----------  ICMP Echo Reply                 |    ║
+║      |                                                |    ║
+║      |  ICMP Echo Request ------------>              |    ║
+║      |                                                |    ║
+║      |  <----------  ICMP Echo Reply                 |    ║
+║      |                                                |    ║
+║      |  ... (continues for all ping packets)         |    ║
+║      |                                                |    ║
+╚════════════════════════════════════════════════════════════╝
+
+╔════════════════════════════════════════════════════════════╗
+║                    PROTOCOL SUMMARY                        ║
+╠════════════════════════════════════════════════════════════╣
+║  Layer 2 (Data Link) Protocols:                           ║
+║    - Ethernet II                                           ║
+║    - ARP (Address Resolution Protocol)                     ║
+║                                                            ║
+║  Layer 3 (Network) Protocols:                              ║
+║    - IP (Internet Protocol)                                ║
+║    - ICMP (Internet Control Message Protocol)              ║
+║                                                            ║
+║  Layer 4 (Transport) Protocols:                            ║
+║    - None in PING operation                                ║
+║    - (TCP/UDP would appear if captured)                    ║
+╠════════════════════════════════════════════════════════════╣
+║  Packet Statistics:                                        ║
+║    ARP Packets:   4                                       ║
+║    ICMP Packets:  20                                      ║
+║    TCP Packets:   0                                       ║
+║    UDP Packets:   0                                       ║
+║    Other:         3                                       ║
+╚════════════════════════════════════════════════════════════╝
+
+╔════════════════════════════════════════════════════════════╗
+║  L2 Protocols Extracted: Ethernet, ARP                     ║
+║  L3 Protocols Extracted: IP, ICMP                          ║
+║  L4 Protocols Extracted: None (ICMP is Layer 3)            ║
+╚════════════════════════════════════════════════════════════╝
+
