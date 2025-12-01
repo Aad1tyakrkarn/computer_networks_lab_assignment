@@ -1,3 +1,4 @@
 Computer Networks Lab Manual Assignment Answers
-Aaditya Kumar Karn
-CSM24019
+
+Name - Aaditya Kumar Karn
+Roll no. - CSM24019
