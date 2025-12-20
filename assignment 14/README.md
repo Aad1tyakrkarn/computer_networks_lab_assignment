@@ -10,3 +10,6 @@ with increasing switch radix.
 
 
 Output -
+
+![Assignment 14](./assign14_output.png)
+
