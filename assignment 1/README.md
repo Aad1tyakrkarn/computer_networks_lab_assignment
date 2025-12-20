@@ -9,4 +9,4 @@ says “Hi” and in response server says “Hello”.
 
 Output -
 
-![Assignment 1](./assignment 1/assign1_output.png)
+![Assignment 1](./assign1_output.png)
