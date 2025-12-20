@@ -1,31 +1,13 @@
-### Packet Capture Analysis
-**Command:** `tshark -r assign5.pcap`
+Assignment 5
 
-**Log Output (Sample showing high-speed traffic):**
-*Note: The presence of "TCP Retransmission" and "Dup ACK" confirms that Iperf successfully saturated the link, causing packet drops and re-sends due to high bandwidth usage.*
+Objective:
+To gain knowledge of more packet capturing tools.
 
-```text
-3643 2.554578308   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1311895213
-3644 2.554600669   10.0.0.2 → 10.0.0.1   TCP 65228 35164 → 5001 [PSH, ACK] Seq=1311960373
-3645 2.554603545   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1311960373
-3646 2.557809551   10.0.0.1 → 10.0.0.2   TCP 68    [TCP ACKed unseen segment] 5001 → 35164 [ACK] Seq=29 Ack=1314547885
-3647 2.557811614   10.0.0.1 → 10.0.0.2   TCP 68    [TCP Dup ACK 3646#1] 5001 → 35164 [ACK] Seq=29 Ack=1314547885
-3648 2.558047288   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Previous segment not captured] 35164 → 5001 [PSH, ACK]
-3649 2.558051556   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1314547885
-3650 2.558069980   10.0.0.2 → 10.0.0.1   TCP 65228 35164 → 5001 [PSH, ACK] Seq=1314613045
-3651 2.558071864   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1314613045
-3652 2.567136360   10.0.0.1 → 10.0.0.2   TCP 68    [TCP ACKed unseen segment] 5001 → 35164 [ACK] Seq=29 Ack=1318740141
-3653 2.567142181   10.0.0.1 → 10.0.0.2   TCP 68    [TCP Dup ACK 3652#1] 5001 → 35164 [ACK] Seq=29 Ack=1318740141
-3654 2.567629559   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Previous segment not captured] 35164 → 5001 [PSH, ACK]
-3655 2.567635310   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1318740141
-3656 2.567707172   10.0.0.2 → 10.0.0.1   TCP 65228 35164 → 5001 [PSH, ACK] Seq=1318805301
-3657 2.567711300   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1318805301
-3658 2.576306071   10.0.0.1 → 10.0.0.2   TCP 68    [TCP ACKed unseen segment] 5001 → 35164 [ACK] Seq=29 Ack=1325052613
-3659 2.576311431   10.0.0.1 → 10.0.0.2   TCP 68    [TCP Dup ACK 3658#1] 5001 → 35164 [ACK] Seq=29 Ack=1325052613
-3660 2.576383825   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Previous segment not captured] 35164 → 5001 [PSH, ACK]
-3661 2.576387161   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1325052613
-3662 2.576404984   10.0.0.2 → 10.0.0.1   TCP 65228 35164 → 5001 [PSH, ACK] Seq=1325117773
-3663 2.576407879   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Retransmission] 35164 → 5001 [PSH, ACK] Seq=1325117773
-3664 2.589072507   10.0.0.1 → 10.0.0.2   TCP 68    [TCP ACKed unseen segment] 5001 → 35164 [ACK] Seq=29 Ack=1333420509
-3665 2.589076975   10.0.0.1 → 10.0.0.2   TCP 68    [TCP Dup ACK 3664#1] 5001 → 35164 [ACK] Seq=29 Ack=1333420509
-3666 2.589149258   10.0.0.2 → 10.0.0.1   TCP 65228 [TCP Previous segment not captured] 35164 → 5001 [PSH, ACK]
+
+Exercise:
+Learn and use maximum number of packet generation tools.
+
+
+Output-
+
+![Assignment 5](./assign5_output.png)
