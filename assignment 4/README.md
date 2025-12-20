@@ -11,3 +11,5 @@ extracted from the .pcap file.
 
 
 Output- 
+
+![Assignment 4](./assign4_output.png)
